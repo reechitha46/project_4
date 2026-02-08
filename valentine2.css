@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+#heading{
+    font-size: 3vw;
+    margin: 30px;
+}
+#div_cont{
+    width: 600px;
+    height: 300px;
+    border-radius: 50px;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    background-color: aqua;
+}
+.button{
+    margin: 40px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 50px;
+    color: white;
+}
+#button1{
+    background-color: green;
+}
+#button2{
+    background-color: red;
+}
+#button2:hover{
+    animation: toAnimatebutton 1000ms linear 1;
+}
+@keyframes toAnimatebutton{
+    from{
+        background-color: red;
+        transform: translate(150px);
+        
+    }
+    20%{
+        background-color: black;
+        transform: translate(0px,150px);
+        
+    }
+    50%{
+        background-color: black;
+        transform: translate(150px);
+    }
+    90%{
+        background-color: red;
+        transform: translate(0px,150px);
+    }
+    to{
+        background-color: black;
+        transform: translate(150px);
+    }
+}

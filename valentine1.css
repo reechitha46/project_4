@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+#heading,#heading2,#heading3{
+    font-size: 5vw;
+    text-align: center;
+}
+#image{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+}
+#span{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+#img2{
+    width: 400px;
+    height: 400px;
+}
